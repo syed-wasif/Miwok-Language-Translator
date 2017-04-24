@@ -1,0 +1,62 @@
+TASK com.example.android.miwok id=994
+  ACTIVITY com.example.android.miwok/.NumbersActivity 1891e8f2 pid=21491
+    Local FragmentActivity 39bcfa39 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@2aca187e
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@2aca187e
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{3af701df V.E..... ... 0,0-480,854}
+        android.widget.LinearLayout{2f37ee2c V.E..... ... 0,0-480,854}
+          android.view.ViewStub{76a00f5 G.E..... ... 0,0-0,0 #1020379}
+          android.widget.FrameLayout{26eb3e8a V.E..... ... 0,0-480,854}
+            android.support.v7.widget.FitWindowsLinearLayout{27f3dcfb V.E..... ... 0,0-480,854 #7f0c0055 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{354bc118 G.E..... ... 0,0-0,0 #7f0c0056 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{36a6b771 V.E..... ... 0,0-480,854 #1020002 android:id/content}
+                android.support.design.widget.CoordinatorLayout{2346b956 V.ED.... ... 0,0-480,854}
+                  android.support.design.widget.AppBarLayout{194dd7 V.E..... ... 0,38-480,122}
+                    android.support.v7.widget.Toolbar{bc7d6c4 V.E..... ... 0,0-480,84 #7f0c0069 app:id/toolbar}
+                      android.widget.TextView{71e59ad V.ED.... ... 24,21-147,62}
+                      android.support.v7.widget.ActionMenuView{100d14e2 V.E..... ... 480,0-480,84}
+                  android.widget.LinearLayout{1abaf073 V.E..... ... 0,122-480,854 #7f0c006a app:id/rootView}
+                    android.widget.TextView{2cd9b30 V.ED.... ... 0,0-480,29}
+                    android.widget.TextView{df3e3a9 V.ED.... ... 0,29-480,58}
+                    android.widget.TextView{3deb9d2e V.ED.... ... 0,58-480,87}
+                    android.widget.TextView{26ca20cf V.ED.... ... 0,87-480,116}
+                    android.widget.TextView{9293a5c V.ED.... ... 0,116-480,145}
+                    android.widget.TextView{357e1165 V.ED.... ... 0,145-480,174}
+                    android.widget.TextView{9185e3a V.ED.... ... 0,174-480,203}
+                    android.widget.TextView{26f1faeb V.ED.... ... 0,203-480,232}
+                    android.widget.TextView{c3da048 V.ED.... ... 0,232-480,261}
+                    android.widget.TextView{3cc35ee1 V.ED.... ... 0,261-480,290}
+        android.view.View{291e2406 V.ED.... ... 0,0-480,38 #102002f android:id/statusBarBackground}
+
+  ACTIVITY com.example.android.miwok/.MainActivity 158af59 pid=21491
+    Local FragmentActivity 340f10a State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@13735ac7
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@13735ac7
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{2ab078f4 I.E..... ... 0,0-480,854}
+        android.widget.LinearLayout{32b6081d V.E..... ... 0,0-480,854}
+          android.view.ViewStub{31687a92 G.E..... ... 0,0-0,0 #1020379}
+          android.widget.FrameLayout{3dc0dc63 V.E..... ... 0,0-480,854}
+            android.support.v7.widget.FitWindowsLinearLayout{25d63060 V.E..... ... 0,0-480,854 #7f0c0055 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{29300919 G.E..... ... 0,0-0,0 #7f0c0056 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{e8fadde V.E..... ... 0,0-480,854 #1020002 android:id/content}
+                android.support.design.widget.CoordinatorLayout{11dadbbf V.ED.... ... 0,0-480,854}
+                  android.support.design.widget.AppBarLayout{3dddf28c V.E..... ... 0,38-480,122}
+                    android.support.v7.widget.Toolbar{1baf1dd5 V.E..... ... 0,0-480,84 #7f0c0069 app:id/toolbar}
+                      android.widget.TextView{c64c9ea V.ED.... ... 24,21-113,62}
+                      android.support.v7.widget.ActionMenuView{116b74db V.E..... ... 480,0-480,84}
+                  android.widget.LinearLayout{24bdab78 V.E..... ... 0,122-480,854}
+                    android.support.v7.widget.AppCompatTextView{5d0c251 V.ED..C. ... 0,0-480,132 #7f0c006b app:id/numbers}
+                    android.support.v7.widget.AppCompatTextView{30bd9ab6 V.ED..C. ... 0,132-480,264 #7f0c006c app:id/family}
+                    android.support.v7.widget.AppCompatTextView{24a283b7 V.ED..C. ... 0,264-480,396 #7f0c006d app:id/colors}
+                    android.support.v7.widget.AppCompatTextView{33de0724 V.ED..C. ... 0,396-480,528 #7f0c006e app:id/phrases}
+        android.view.View{258e328d V.ED.... ... 0,0-480,38 #102002f android:id/statusBarBackground}

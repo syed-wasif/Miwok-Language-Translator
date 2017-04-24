@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.android.miwok.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    />
+
+
+    <!--<GridView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/gridview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:columnWidth="90dp"-->
+    <!--android:numColumns="auto_fit"-->
+    <!--android:verticalSpacing="10dp"-->
+    <!--android:horizontalSpacing="10dp"-->
+    <!--android:stretchMode="columnWidth"-->
+    <!--android:gravity="center"-->
+    <!--tools:context="com.example.android.miwok.NumbersActivity"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"/>-->
+
+    <!--/>-->
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_color"
+        android:orientation="vertical"
+        tools:context="com.example.android.miwok.MainActivity"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <!-- Numbers category -->
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_numbers">-->
+        <!--<TextView-->
+        <!--android:id="@+id/numbers"-->
+        <!--style="@style/CategoryStyle"-->
+        <!--android:background="?android:attr/selectableItemBackground"-->
+        <!--android:text="@string/category_numbers" />-->
+        <!--</FrameLayout>-->
+
+        <!--&lt;!&ndash; Family category &ndash;&gt;-->
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_family">-->
+        <!--<TextView-->
+        <!--android:id="@+id/family"-->
+        <!--style="@style/CategoryStyle"-->
+        <!--android:background="?android:attr/selectableItemBackground"-->
+        <!--android:text="@string/category_family" />-->
+        <!--</FrameLayout>-->
+
+        <!--&lt;!&ndash; Colors category &ndash;&gt;-->
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_colors">-->
+        <!--<TextView-->
+        <!--android:id="@+id/colors"-->
+        <!--style="@style/CategoryStyle"-->
+        <!--android:background="?android:attr/selectableItemBackground"-->
+        <!--android:text="@string/category_colors" />-->
+        <!--</FrameLayout>-->
+
+        <!--&lt;!&ndash; Phrases category &ndash;&gt;-->
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_phrases">-->
+        <!--<TextView-->
+        <!--android:id="@+id/phrases"-->
+        <!--style="@style/CategoryStyle"-->
+        <!--android:background="?android:attr/selectableItemBackground"-->
+        <!--android:text="@string/category_phrases" />-->
+        <!--</FrameLayout>-->
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryTab"
+            app:tabMode="fixed"
+            />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
